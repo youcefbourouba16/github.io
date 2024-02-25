@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cinema</title>
+  <link rel="stylesheet" href="cinema3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
+</head>
+<body>
+
+<div class="spinner"></div>
+
+<header id="header">
+  <div class="navbar">
+    <div><img src="New_Line_Cinema_-_Logo.png" alt="logo" class="logo"></div>
+    <ul class="links">
+      <li><a href="#" id="active" class="hide">Home</a></li>
+      <li><a href="#" class="hide">TV Shows</a></li>
+      <li><a href="#" class="hide">Movies</a></li>
+      <li><a href="#" class="hide">About Us</a></li>
+      <li></li>
+      <li></li>
+
+      <li>    <input type="text" name="search" placeholder="Search:Movies,Actor..." class="input">
+      </li>
+      <li><button class="btn" id="test">LOG IN</button></li>
+    </ul>
+    <div class="toggle_btn">
+      <label class="burger" for="burger">
+        <input type="checkbox" id="burger" onclick="droplist()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    <div class="login">
+
+    </div>
+  </div>
+
+</header>
+
+<div class="dropdown_menu" id="drop">
+
+  <li><a href="#" >Show Time</a></li>
+  <li><a href="#">Cinemas</a></li>
+  <li><a href="#">Events</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#" class="btn1">LOG IN</a></li>
+</div>
+<h1>Films</h1>
+<p class="intro">Whether it's scary, comedic, dramatic, romantic, or any other genre, cinema has the power to awaken our senses. And with so many titles available, there's so much to discover!</p>
+<p class="movies_categories"> -TOP 10 movies Last decade : </p>
+
+<div class="wrapper" >
+  <i id="left" class="fa-solid fa-angle-left"></i>
+  <div class="carousel" id="carousel0">
+    <div class="image-container">
+        <img class="content_img" src="./image/Mad%20Max%20Fury%20Road.webp" alt="Mad Max Fury Road">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">Mad Max Fury Road</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/spider-man-spider-verse-animated-film-3.webp" alt="spider man spider verse animated">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">spider-man-spider-verse-animated</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/boyhood-promo.webp" alt="boyhood-promo">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">boyhood promo</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/12-getout.webp" alt="getout">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">getout</span>
+    </div>
+
+    <div class="image-container">
+      <img class="content_img" src="./image/lady-bird-eljwqq.webp" alt="lady-bird-eljwqq">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">lady bird eljwqq</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/the-favorite.webp" alt="the favorite">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">the favorite</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/roma-23491-001r.webp" alt="roma">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">roma</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/okoye-black-panther.webp" alt="blackpanther">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">blackpanther</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/ex-machina-vikander.webp" alt="ex machina">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">ex machina</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/the-master-2012-1200-1200-675-675-crop-000000.webp" alt="the master">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">ex machina</span>
+    </div>
+  </div>
+  <i id="right" class="fa-solid fa-angle-right"></i>
+</div>
+
+<div class="spacing"></div>
+
+
+<p class="movies_categories"> -TOP 10 SERIES Last decade : </p>
+
+
+<div class="wrapper"  >
+  <i id="left" class="fa-solid fa-angle-left"></i>
+  <div class="carousel" id="carousel1">
+    <div class="image-container">
+      <img class="content_img" src="./image/breaking%20bad.jpg" alt="breaking bad">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">breaking bad</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/game%20of%20thronse.jpg" alt="game of thrones">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">game of thrones</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/better-call-saul570.webp" alt="better call saul">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">better call saul</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/chernobyl-ka-1920.jpg" alt="chernobly">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">chernobly</span>
+    </div>
+
+    <div class="image-container">
+      <img class="content_img" src="./image/vikings.jpg" alt="vikings">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">vikings</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/peaky%20blinders.jpg" alt="peaky blinders">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">peaky blinders</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/stranger%20things.jpg" alt="stranger things">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">stranger thingss</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/sherlock.jpg" alt="sherlock">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">sherlock</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/the%20100.jpg" alt="the 100">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">the 100</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/arcane-lol-changes.avif" alt="arcane">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">arcane</span>
+    </div>
+  </div>
+  <i id="right" class="fa-solid fa-angle-right"></i>
+</div>
+
+
+
+<div class="spacing"></div>
+
+
+<p class="movies_categories"> -TOP 10 ANIMES Last decade : </p>
+
+
+<div class="wrapper"  >
+  <i id="left" class="fa-solid fa-angle-left"></i>
+  <div class="carousel" >
+    <div class="image-container">
+      <img class="content_img" src="./image/Attack%20on%20Titan.jfif" alt="Attack on Titan">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">Attack on Titan</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/Demon%20Slayer.jpg" alt="Demon Slayer">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">Demon Slayer</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/My%20Hero%20Academia.jfif" alt="My Hero Academia">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">My Hero Academia</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/One%20Punch%20Man.jpg" alt="One Punch Man">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">One Punch Man</span>
+    </div>
+
+    <div class="image-container">
+      <img class="content_img" src="./image/Sword%20Art%20Online.webp" alt="Sword Art Online">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">Sword Art Online</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/Hunter%20x%20Hunter.jpg" alt="Hunter x Hunter">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">Hunter x Hunter 2011</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/Haikyuu!!.webp" alt="Haikyuu!!">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">Haikyuu!!</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/Your%20Lie%20in%20April.jfif" alt="Your Lie in April">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">Your Lie in April</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/Steins;Gate.jpe" alt="Steins;Gate">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">Steins;Gate</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/JoJo's%20Bizarre%20Adventure.webp " alt="JoJo's Bizarre Adventure ">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">JoJo's Bizarre Adventure </span>
+    </div>
+  </div>
+  <i id="right" class="fa-solid fa-angle-right"></i>
+</div>
+
+
+
+<div class="spacing"></div>
+
+
+<p class="movies_categories"> - 10 MOST POPULAR TV SHOWS RIGHT NOW : </p>
+
+
+<div class="wrapper"  >
+  <i id="left" class="fa-solid fa-angle-left"></i>
+  <div class="carousel" >
+    <div class="image-container">
+      <img class="content_img" src="./image/SECRET%20INVASION.webp" alt="SECRET INVASION">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">SECRET INVASION</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/THE%20IDOL.webp" alt="THE IDOL">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">THE IDOL</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/THE%20BEAR.jpg" alt="THE BEAR">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">THE BEAR</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/THE%20CROWDED%20ROOM.webp" alt="THE CROWDED ROOM">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">THE CROWDED ROOM</span>
+    </div>
+
+    <div class="image-container">
+      <img class="content_img" src="./image/BLACK%20MIRROR%20%20SEASON%206.jpg" alt="BLACK MIRROR: SEASON 6">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">BLACK MIRROR: SEASON 6</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/I'M%20A%20VIRGO.jfif" alt="I'M A VIRGO">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">I'M A VIRGO</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/silo.jpg" alt="silo">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">silo</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/THE%20FLASH%20SEASON%209.webp" alt="THE FLASH SEASON 9">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">THE FLASH SEASON 9</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/SUITS.jpg" alt="SUITS">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">SUITS</span>
+    </div>
+    <div class="image-container">
+      <img class="content_img" src="./image/THE%20WALKING%20DEAD_DEAD%20CITY.jpg " alt="THE WALKING DEAD_DEAD CITY ">
+      <img src="play.png" alt="play" class="play_icon">
+      <span class="image-text">THE WALKING DEAD_DEAD CITY </span>
+    </div>
+  </div>
+  <i id="right" class="fa-solid fa-angle-right"></i>
+</div>
+
+
+<div class="spacing" ></div>
+<div class="aboutus">
+  <img src="./image/me.jpg" alt="mypic" id="me">
+  <h1> ABOUT US</h1>
+  <p> MY name is youcef bourouba , im a multi-platform developer , this is my very first projet i hope yall like it :3</p>
+  <h3>contact me :</h3>
+  <a href="https://www.facebook.com/profile.php?id=100022724389554" target="_blank"><img src="./image/pngwing.com.png" alt="insa" class="insta"></a>
+  <a href="https://www.facebook.com/profile.php?id=100022724389554" target="_blank"><img src="./image/Facebook_Logo_(2019).png" alt="facebook icon" class="facebook"></a>
+  <span class="email_adress">bourouba.youcef28@gmail.com </span> 
+</div>
+</body>
+<script src="cinema.js"></script>
+</html>
